@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/SeleniumTest.java",
+      "testCases": [
+        {
+          "methodName": "testIncrementButton",
+          "label": "Verify counter increment functionality",
+          "description": "Clicks the increment button and asserts that the display element updates to the expected incremented values sequentially."
+        },
+        {
+          "methodName": "testCheckButton",
+          "label": "Verify even/odd text after 1 click",
+          "description": "Clicks the counter button once and verifies that the evenOrOddText element shows 'even', assuming the counter starts at 1."
+        },
+        {
+          "methodName": "testCheckButton2Clicks",
+          "label": "Verify even/odd text after 2 clicks",
+          "description": "Clicks the counter button twice and verifies that the evenOrOddText element shows 'odd', assuming the counter starts at 1."
+        }
+      ]
+    }
+  ]
+}
